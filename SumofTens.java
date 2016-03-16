@@ -6,7 +6,7 @@
 public class HelloWorld {
   public static void main (String args[]) {
     
-    int number = 112045; //insert number here
+    int number = 0; //insert number here
     int numberbackup = number;
     int count = 1;
     
@@ -23,7 +23,10 @@ public class HelloWorld {
     	numberbackup = numberbackup / 10;
         int exponent = count-countbackup;
       	int exit = (int) Math.pow(10, exponent);
-      	System.out.print(" + " + exit*some);
+      	System.out.print(exit*some);
+      	if (countbackup > 1){
+      	    System.out.print(" + ");
+      	}
       	countbackup = countbackup - 1;
 	}
   }
