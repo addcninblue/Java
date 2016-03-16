@@ -1,5 +1,5 @@
 /**
-* DigitSum -___-
+* DigitSum
 */
 
 public class DigitSum {
