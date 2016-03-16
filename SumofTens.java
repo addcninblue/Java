@@ -1,9 +1,8 @@
 /**
-* SumofTens -___-
 * Addison Chan
 */
 
-public class HelloWorld {
+public class SumofTens {
   public static void main (String args[]) {
     
     int number = 0; //insert number here
