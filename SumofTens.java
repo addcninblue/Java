@@ -28,5 +28,6 @@ public class SumofTens {
       	}
       	countbackup = countbackup - 1;
 	}
+	System.out.println();
   }
 }
